@@ -48,3 +48,13 @@ article{
     margin-top: 2%;
     padding: 15px;
 }
+footer{
+    background-color: #A5F3FF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding: 30px;
+}
