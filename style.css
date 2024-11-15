@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    p{
+        text-align: center;
+    }
+    .div2{
+        background-color: #BCBAF0;
+        padding: 5%;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
