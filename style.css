@@ -27,15 +27,15 @@ header{
     }
 }
 main{
-    margin-top: 15px;
+    margin-top: 5px;
     background-color: wheat;
     display: grid;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
     grid-template-columns: 1fr 1fr;
     margin-right: 10%;
     margin-left: 10%;
-    text-align: center;
-    gap: 10px;
+    text-align: left;
+    gap: 5px;
     padding-bottom: 1.5%;
     img{
         height: 100%;
@@ -45,10 +45,11 @@ main{
     }
     p{
         background-color: #DE846B;
-        padding-bottom: 20px;
-        padding-top: 25px;
-
-        align-items: center;
+        padding-bottom: 25px;
+        padding-top: 15px;
+        padding-left: 20px;
+        margin-right: 10%;
+        /* align-items: center; */
     }
 }
 article{
@@ -65,6 +66,9 @@ article{
     h4{
         text-align: center;
         margin-bottom: 8px;
+    }
+    h3{
+        text-align: center;
     }
 }
 footer{
