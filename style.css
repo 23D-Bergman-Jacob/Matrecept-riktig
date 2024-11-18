@@ -24,11 +24,13 @@ header{
         width: auto;
         max-height: 85%;
         max-width: 75%;
+        border-radius: 10px;
     }
 }
 main{
     margin-top: 5px;
     background-color: wheat;
+    border-radius: 10px;
     display: grid;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
     grid-template-columns: 1fr 1fr;
@@ -50,12 +52,14 @@ main{
         padding-left: 20px;
         margin-right: 10%;
         /* align-items: center; */
+        border-radius: 10px;
     }
+    width: 40%;
 }
 article{
     background-color: lightyellow;
-    margin-left: 10%;
-    margin-right: 10%;
+    border-radius: 10px;
+    margin-left: 21.5%;
     text-align: left;
     margin-top: 10px;
     padding: 5px;
@@ -70,9 +74,11 @@ article{
     h3{
         text-align: center;
     }
+    width: 95%;
 }
 footer{
     background-color: #A5F3FF;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -83,4 +89,12 @@ footer{
 }
 body{
     background-color: whitesmoke;
+}
+.IngredienserSteg{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.del2{
+
 }
